@@ -1,0 +1,27 @@
+table tr:nth-child(odd) {
+    background-color: silver;
+  }
+  table tr:nth-child(even) {
+    background-color: white;
+  } 
+  table td {
+    border-right: 1px solid black;
+  }
+  
+  table td:last-child {
+    border-right: none;
+  }
+
+  .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  margin: 0 10px;
+  width: 105px;
+  height: 30px;
+  color: black;
+  background-color: rgb(212, 212, 212)
+}
