@@ -35,6 +35,7 @@
 
 <div class="m-5">
     <table class="table">
+    <link rel="stylesheet" type="text/css" href="..\css\stylePrincipal.css">
         <thead>
             <tr>
                 <th>#</th>
@@ -51,8 +52,10 @@
         </tbody>
         <script type="text/javascript" src="..\js\table.js"></script>
     </table>
-    <button onclick="updateTable(count-5)" id="button-previous">Anterior</button>
-    <button onclick="updateTable(count+5)" id="button-next">Proximo</button>
+    <div class="button-container">
+        <button onclick="updateTable(count-5)" id="button-previous">Anterior</button>
+        <button onclick="updateTable(count+5)" id="button-next">Proximo</button>
+    </div>
 </div>
 </body>
 </html>
