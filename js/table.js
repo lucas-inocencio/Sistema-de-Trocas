@@ -3,75 +3,75 @@ var buttonBack = document.getElementById("button-previous");
 var buttonNext = document.getElementById("button-next");
 
 data = [{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Alfa",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
+    Workload: 1.5,
     Apply: "",
     Comments: ""
     },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Beta",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
+    Workload: 3,
     Apply: "",
     Comments: ""
     },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Delta",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
+    Workload: 2,
     Apply: "",
     Comments: ""
     }, {
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Lambda",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
+    Workload: 7,
     Apply: "",
     Comments: ""
         },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Gamma",
+    date: "4/1/2023",
+    status: "Disponivel",
+    Description: "", 
+    Workload: 5,
+    Apply: "",
+    Comments: ""
+    },{
+    team: "Eta",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
     Workload: 1,
     Apply: "",
     Comments: ""
     },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Theta",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
+    Workload: 12,
     Apply: "",
     Comments: ""
     },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Pi",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
+    Workload: 8,
     Apply: "",
     Comments: ""
     },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
+    team: "Tau",
+    date: "4/1/2023",
+    status: "Disponivel",
     Description: "", 
-    Workload: 1,
-    Apply: "",
-    Comments: ""
-    },{
-    team: "delta",
-    date: "hoje",
-    status: "disponivel",
-    Description: "", 
-    Workload: 1,
+    Workload: 6,
     Apply: "",
     Comments: ""
     }];
@@ -80,17 +80,17 @@ var html = "";
 var count = 0;
 
 function createTable() {
-
+    html = "";
     for (let i = count; i < count+5 && i < data.length; i++) {
         html += "<tr>";
         html += "<td>" + (i+1) + "</td>";
-        html += "<td>" + data[count]["team"] + "</td>";
-        html += "<td>" + data[count]["date"] + "</td>";
-        html += "<td>" + data[count]["status"] + "</td>";
-        html += "<td>" + data[count]["Description"] + "</td>";
-        html += "<td>" + data[count]["Workload"] + "</td>";
-        html += "<td>" + data[count]["Apply"] + "</td>";
-        html += "<td>" + data[count]["Comments"] + "</td>";
+        html += "<td>" + data[i]["team"] + "</td>";
+        html += "<td>" + data[i]["date"] + "</td>";
+        html += "<td>" + data[i]["status"] + "</td>";
+        html += "<td>" + data[i]["Description"] + "</td>";
+        html += "<td>" + data[i]["Workload"] + "</td>";
+        html += "<td>" + data[i]["Apply"] + "</td>";
+        html += "<td>" + data[i]["Comments"] + "</td>";
         html += "</tr>";
     }
 
@@ -103,13 +103,13 @@ function updateTable(index) {
     for (let i = count; i < count+5 && i < data.length; i++){
         html += "<tr>";
         html += "<td>" + (i+1) + "</td>";
-        html += "<td>" + data[count]["team"] + "</td>";
-        html += "<td>" + data[count]["date"] + "</td>";
-        html += "<td>" + data[count]["status"] + "</td>";
-        html += "<td>" + data[count]["Description"] + "</td>";
-        html += "<td>" + data[count]["Workload"] + "</td>";
-        html += "<td>" + data[count]["Apply"] + "</td>";
-        html += "<td>" + data[count]["Comments"] + "</td>";
+        html += "<td>" + data[i]["team"] + "</td>";
+        html += "<td>" + data[i]["date"] + "</td>";
+        html += "<td>" + data[i]["status"] + "</td>";
+        html += "<td>" + data[i]["Description"] + "</td>";
+        html += "<td>" + data[i]["Workload"] + "</td>";
+        html += "<td>" + data[i]["Apply"] + "</td>";
+        html += "<td>" + data[i]["Comments"] + "</td>";
         html += "</tr>";
     }
 
