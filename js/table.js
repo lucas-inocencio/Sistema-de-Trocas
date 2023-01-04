@@ -117,3 +117,21 @@ function updateTable(index) {
 }
 
 createTable();
+
+function testCreateTable () {
+    createTable();
+    let isEqual = "<tr><td>1</td><td>Alfa</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>1.5</td><td></td><td></td></tr><tr><td>2</td><td>Beta</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>3</td><td></td><td></td></tr><tr><td>3</td><td>Delta</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>2</td><td></td><td></td></tr><tr><td>4</td><td>Lambda</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>7</td><td></td><td></td></tr><tr><td>5</td><td>Gamma</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>5</td><td></td><td></td></tr>"
+    === tableBody.innerHTML;
+    return isEqual
+}
+
+function testUpdateTable () {
+    createTable();
+    updateTable(count);
+    let isEqual = "<tr><td>1</td><td>Alfa</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>1.5</td><td></td><td></td></tr><tr><td>2</td><td>Beta</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>3</td><td></td><td></td></tr><tr><td>3</td><td>Delta</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>2</td><td></td><td></td></tr><tr><td>4</td><td>Lambda</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>7</td><td></td><td></td></tr><tr><td>5</td><td>Gamma</td><td>4/1/2023</td><td>Disponivel</td><td></td><td>5</td><td></td><td></td></tr>"
+    === tableBody.innerHTML;
+    return isEqual
+}
+
+console.log(testCreateTable())
+console.log(testUpdateTable())
