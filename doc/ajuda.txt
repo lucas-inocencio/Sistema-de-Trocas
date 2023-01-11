@@ -1,0 +1,36 @@
+Se estiver utilizando a aplicacao apenas com front-end saiba que isto eh um prototipo.
+Portanto, talvez sera necessario escrever as urls por completo para acessa-las
+Segue aqui uma lista delas
+
+lucas-inocencio.github.io/html/login
+lucas-inocencio.github.io/html/cadastro
+lucas-inocencio.github.io/html/publicar
+lucas-inocencio.github.io/html/perfil
+lucas-inocencio.github.io/html/principal
+
+pagina login:
+
+Preencha os campos de login e senha ja existentes e clique no botao entrar.
+Se nao tiver login, crie um.
+Se estiver pelo github.io, acesse as paginas diretamenta pelas urls.
+
+pagina cadastro
+
+Preencha todos os campos (por enquanto nao ha nenhum tipo de verificacao) e clique no botao cadastrar.
+Caso queira entrar ao inves disso clique no botao entrar.
+Se estiver pelo github.io, acesse as paginas diretamenta pelas urls.
+
+pagina publicar
+
+Preencha todos os campos (por enquanto nao ha nenhum tipo de verificacao) e clique no botao cadastrar.
+Se estiver pelo github.io, acesse as paginas diretamenta pelas urls.
+
+pagina perfil
+
+Se estiver pelo github.io, o perfil precisa do back-end, acesse as outras paginas diretamenta pelas urls.
+
+pagina principal
+
+Aperte os botoes de anterior e proximo ate achar um servico que lhe interessa.
+Aperte o botao candidatar-se para pegar um servico (por enquanto nao ha nenhum tipo de validacao ou feedback).
+Se estiver pelo github.io, acesse as paginas diretamenta pelas urls.
