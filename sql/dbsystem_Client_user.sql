@@ -37,7 +37,7 @@ CREATE TABLE `Client_user` (
   `hours` float DEFAULT NULL,
   `file` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`UserID`)
-) ENGINE=InnoDB AUTO_INCREMENT=1247 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1249 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -46,7 +46,7 @@ CREATE TABLE `Client_user` (
 
 LOCK TABLES `Client_user` WRITE;
 /*!40000 ALTER TABLE `Client_user` DISABLE KEYS */;
-INSERT INTO `Client_user` VALUES (1239,'Henrique O Estado','11111111111','12','henrique@poli.ufrj.br','eusouoestado','12321','rua dos bobos','Engenheiro Eletrônico','nenhuma','2222222',10,NULL),(1240,'João Ribeiro','11111111111','20','loginteste@gmail.com','password','545342','rua','Engenharia da Computação','Todas',NULL,20,NULL),(1241,'Napoleão Bonaparte','00000000001','200','fr.revolution@gmail.com','iwillconquer','10000','Rua Le quartier ','General de le gran armie','Conquer europe',NULL,10,'conquer.jpeg'),(1242,'lucas','111111111','30','lucas.inocencio@poli.ufrj.br','seila','43553','rua ct da ufrj','Engenharia da Computação','Raciocionio logico',NULL,10,NULL),(1243,'novo user','12345678911','0208200','novouser@gmail.com','seila','34324','Rua preventorio','nenhuim','nenhum',NULL,NULL,'3.png'),(1244,'scrat da era do gelo','00000000001','12/12/0529','scrat@gmail.com','scrat','00001','Rua Preventorio','nenhum','nenhum',NULL,2999.9,'scrat.jpg'),(1245,'ninguem','0000000001','02042020','novo.user@gmail.com','seila','00001','rua dos bobos','engenharia','science','22999999999',2.1,'conquer.jpeg'),(1246,'Garoto','12345666765','12122012','nestle@gmail.com','bombom','00001','Rua Paris ','Chocolate','Fabricar doces','89333543421',-999.9,'conquer.jpeg');
+INSERT INTO `Client_user` VALUES (1241,'Napoleão Bonaparte','00000000001','200','fr.revolution@gmail.com','iwillconquer','10000','Rua Le quartier ','general de la grande armee','Conquer europe',NULL,-18999.8,'conquer.jpeg'),(1242,'lucas','11111111111','30','lucas.inocencio@poli.ufrj.br','seila','43553','rua ct da ufrj','Engenharia da Computação','Raciocionio logico',NULL,10,NULL),(1243,'novo user','12345678911','12','novouser@gmail.com','seila','34324','Rua preventorio','nenhuim','nenhum',NULL,NULL,'3.png'),(1245,'ninguem','0000000001','20','novo.user@gmail.com','seila','00001','rua dos bobos','engenharia','science','22999999999',2.1,'none.jpeg'),(1247,'marley','12345678910','21','meuemail@gmail.com','email','00001','Rua do Preventório','Pedreiro','Construção de Casas','22999999999',2.1,'scrat.jpg'),(1248,'scrat era do gelo','12345678910','200','scrat@gmail.com','seila','00001','Rua geleira','Mecânico de automovel','Experiencia','00000000000',1000,'scrat.jpg');
 /*!40000 ALTER TABLE `Client_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -59,4 +59,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-05  9:04:53
+-- Dump completed on 2023-01-11 20:17:21
