@@ -33,7 +33,7 @@ CREATE TABLE `post` (
   PRIMARY KEY (`idpost`),
   KEY `fk_client__idx` (`fk_client`),
   CONSTRAINT `fk_client_` FOREIGN KEY (`fk_client`) REFERENCES `Client_user` (`UserID`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `post` (
 
 LOCK TABLES `post` WRITE;
 /*!40000 ALTER TABLE `post` DISABLE KEYS */;
-INSERT INTO `post` VALUES (22,1242,'Fazer um MVP','Assim assado',1.4,'Banco de horas para o preventório','Em Aberto'),(23,1245,'FAZER MVP','SISTEMAS DE TROCAS',1.4,'UM MVP PARA O PREVENTORIO','Em Aberto'),(24,1245,'FAZER MVP','SISTEMAS DE TROCAS',1.4,'UM MVP PARA O PREVENTORIO','Em Aberto'),(25,1246,'Invadir Portugal','Quero invadir portugal e expulsar dom joão I',1999.9,'Invasão','Em Aberto'),(26,1246,'Invadir Portugal','Quero invadir portugal e expulsar dom joão I',1999.9,'Invasão','Em Aberto');
+INSERT INTO `post` VALUES (29,1241,'Invadir Portugal','Invadir portugal em poucos dias',9999.9,'Invasão','Em Aberto');
 /*!40000 ALTER TABLE `post` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-05  9:04:53
+-- Dump completed on 2023-01-11 20:17:21
